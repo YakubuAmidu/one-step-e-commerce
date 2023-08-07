@@ -106,6 +106,8 @@ nav {
   top: 50%;
   right: 10%;
   font-weight: 900;
+  border-radius: 10px;
+  padding: 10px;
   color: #fff;
   border: 1px solid gray;
   font-size: 30px;
@@ -115,6 +117,7 @@ nav {
 
 .buyButton:hover {
   background-color: #fff;
+  transition: all .3s ease-in-out;
   color: #111; }
 
 .sliderItem:nth-child(1) .sliderBg {
