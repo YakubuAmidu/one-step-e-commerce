@@ -3,6 +3,7 @@ const menuItem = document.querySelectorAll('.menuItem');
 
 menuItem.forEach((item, index) => {
     item.addEventListener('click', () => {
-        console.log('You clicked me hahahaaa...');
+        wrapper.style.transform = `translateX(${-100 * index}vw)`;
+        console.log('You clicked me hahahaaa...' + index);
     });
 });
