@@ -32,3 +32,15 @@ nav {
   font-size: 20px;
   border-bottom: 2px solid green;
   cursor: pointer; }
+
+.navBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.menuItem {
+  margin-right: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  color: lightgray;
+  font-weight: 400; }

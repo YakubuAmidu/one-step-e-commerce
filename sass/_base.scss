@@ -44,3 +44,17 @@ nav {
     border-bottom: 2px solid green;
     cursor: pointer;
 };
+
+.navBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+};
+
+.menuItem {
+    margin-right: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+    color: $color-light-gray;
+     font-weight: 400;
+}
