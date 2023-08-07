@@ -23,7 +23,12 @@ nav {
 .searchInput {
   border: none;
   background-color: transparent;
+  font-size: 20px;
+  color: #fff;
   margin-right: 10px; }
+
+.searchInput:focus {
+  outline: none; }
 
 .searchInput::placeholder {
   color: lightgray; }
@@ -48,11 +53,13 @@ nav {
 
 .slider {
   background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); }
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  overflow: hidden; }
 
 .sliderWrapper {
   display: flex;
-  width: 500vw; }
+  width: 500vw;
+  transition: all 1s ease-in-out; }
 
 .sliderItem {
   width: 100vw;
@@ -88,6 +95,7 @@ nav {
   color: #fff;
   font-size: 60px;
   text-align: center;
+  border-radius: 15px;
   font-weight: 300;
   padding: 5px;
   border: 1px solid gray;
