@@ -21,8 +21,6 @@ nav {
     justify-content: space-between;
 }
 
-;
-
 .search {
     display: flex;
     align-items: center;
@@ -31,21 +29,15 @@ nav {
     border-radius: 10px;
 }
 
-;
-
 .searchInput {
     border: none;
     background-color: transparent;
     margin-right: 10px;
 }
 
-;
-
 .searchInput::placeholder {
     color: $color-light-gray;
 }
-
-;
 
 .limitedOffer {
     font-size: 20px;
@@ -53,15 +45,11 @@ nav {
     cursor: pointer;
 }
 
-;
-
 .navBottom {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-;
 
 .menuItem {
     margin-right: 50px;
@@ -72,21 +60,15 @@ nav {
     font-weight: 400;
 }
 
-;
-
 .slider {
     background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
 }
 
-;
-
 .sliderWrapper {
     display: flex;
     width: 500vw;
 }
-
-;
 
 .sliderItem {
     width: 100vw;
@@ -95,15 +77,15 @@ nav {
     justify-content: center;
     position: relative;
 
-};
+}
 
- .slideBg {
+.sliderBg {
     width: 750px;
     height: 750px;
     border-radius: 50%;
     background-color: yellow;
     position: absolute;
-};
+}
 
 .sliderImg {
     z-index: 1;
@@ -118,7 +100,7 @@ nav {
     text-align: center;
     font-size: 60px;
     z-index: 1;
-};
+}
 
 .sliderPrice {
     position: absolute;
@@ -128,9 +110,10 @@ nav {
     font-size: 60px;
     text-align: center;
     font-weight: 300;
+    padding: 5px;
     border: 1px solid $color-gray;
     z-index: 1;
-};
+}
 
 .buyButton {
     position: absolute;
@@ -143,9 +126,49 @@ nav {
     background-color: $color-black;
     z-index: 1;
     cursor: pointer;
-};
+}
 
 .buyButton:hover {
     background-color: $color-white;
     color: $color-black;
+}
+
+.sliderItem:nth-child(1) .sliderBg {
+    background-color: #369e62;
+}
+
+.sliderItem:nth-child(2) .sliderBg {
+    background-color: rebeccapurple;
+}
+
+.sliderItem:nth-child(3) .sliderBg {
+    background-color: teal;
+}
+
+.sliderItem:nth-child(4) .sliderBg {
+    background-color: cornflowerblue;
+}
+
+.sliderItem:nth-child(5) .sliderBg {
+    background-color: rgb(124, 115, 80);
+};
+
+.sliderItem:nth-child(1) .sliderPrice {
+    background-color: #369e62;
+};
+
+.sliderItem:nth-child(2) .sliderPrice {
+    background-color: rebeccapurple;
+};
+
+.sliderItem:nth-child(3) .sliderPrice {
+    background-color: teal;
+};
+
+.sliderItem:nth-child(4) .sliderPrice {
+    background-color: cornflowerblue;
+};
+
+.sliderItem:nth-child(5) .sliderPrice {
+    background-color: rgb(124, 115, 80);
 }
