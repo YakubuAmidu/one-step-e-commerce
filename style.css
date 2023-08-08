@@ -184,6 +184,23 @@ nav {
   position: relative;
   clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%); }
 
+.payment {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75); }
+
 .productImg {
   width: 50%; }
 
@@ -202,7 +219,8 @@ nav {
   font-size: 24px;
   color: gray; }
 
-.colors, .sizes {
+.colors,
+.sizes {
   display: flex;
   margin-bottom: 20px; }
 
