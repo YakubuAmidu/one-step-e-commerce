@@ -235,4 +235,5 @@ nav {
 .productButton:hover {
   background-color: #fff;
   border: 1px solid gray;
-  color: #111; }
+  color: #111;
+  transition: all .3s ease-in-out; }
