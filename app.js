@@ -104,7 +104,12 @@ menuItem.forEach((item, index) => {
         // Assign new colors
         currentProductColors.forEach((color, index) => {
             color.style.backgroundColor = chosenProduct.colors[index].code;
-        })
+        });
+    });
+});
 
+currentProductColors.forEach((color, index) => {
+    color.addEventListener('click', () => {
+      currentProductImg.src = chosenProduct.colors[index].img;
     });
 });
