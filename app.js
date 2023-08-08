@@ -94,6 +94,17 @@ menuItem.forEach((item, index) => {
         console.log('You clicked me my friend...' + index);
 
         // Change the chosenProduct
+        chosenProduct = products[index];
+
+        // Change text of current product
+        currentProductTitle.textContent = chosenProduct.title;
+        currentProductPrice.textContent = "$" + chosenProduct.price;
+        currentProductImg.src = chosenProduct.colors[0].img;
+
+        // Assign new colors
+        currentProductColors.forEach((color, index) => {
+            color.style.backgroundColor = chosenProduct.colors[index].code;
+        })
 
     });
 });
