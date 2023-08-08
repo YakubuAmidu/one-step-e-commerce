@@ -274,3 +274,21 @@ nav {
     font-size: 20px;
     cursor: pointer;
 }
+
+.productButton {
+    float: right;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: $color-black;
+    color: $color-white;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.productButton:hover {
+    background-color: $color-white;
+    border: 1px solid $color-gray;
+    color: $color-black;
+}
