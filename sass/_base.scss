@@ -236,3 +236,17 @@ nav {
     width: 40%;
     padding: 50px;
 }
+
+.productTitle {
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.productDescription {
+    font-size: 24px;
+    color: $color-gray;
+};
+
+.colors, .sizes {
+    display: flex;
+}

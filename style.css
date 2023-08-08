@@ -190,3 +190,14 @@ nav {
   right: 0;
   width: 40%;
   padding: 50px; }
+
+.productTitle {
+  font-size: 75px;
+  font-weight: 900; }
+
+.productDescription {
+  font-size: 24px;
+  color: gray; }
+
+.colors, .sizes {
+  display: flex; }
