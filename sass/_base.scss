@@ -1,6 +1,6 @@
 $color-black: #111;
 $color-white: #fff;
-$color-light-gray: lightgray;
+$color-light-gray: rgb(166, 165, 165);
 $color-gray: gray;
 
 html {
@@ -143,9 +143,6 @@ nav {
     cursor: pointer;
 }
 
-;
-
-
 .buyButton:hover {
     background-color: $color-white;
     transition: all .3s ease-in-out;
@@ -245,6 +242,27 @@ nav {
     box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75);
+}
+
+.paymentTitle {
+    font-size: 20px;
+    color: $color-light-gray;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.payInput {
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid $color-gray;
+}
+
+.payInput::placeholder {
+    color: $color-light-gray;
 }
 
 .productImg {

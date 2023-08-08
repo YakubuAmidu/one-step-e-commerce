@@ -34,7 +34,7 @@ nav {
   outline: none; }
 
 .searchInput::placeholder {
-  color: lightgray; }
+  color: #a6a5a5; }
 
 .limitedOffer {
   font-size: 20px;
@@ -51,7 +51,7 @@ nav {
   margin-top: 50px;
   margin-bottom: 50px;
   cursor: pointer;
-  color: lightgray;
+  color: #a6a5a5;
   font-weight: 400; }
 
 .slider {
@@ -200,6 +200,23 @@ nav {
   box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75); }
+
+.paymentTitle {
+  font-size: 20px;
+  color: #a6a5a5; }
+
+label {
+  font-size: 14px;
+  font-weight: 300; }
+
+.payInput {
+  padding: 10px;
+  margin: 10px 0px;
+  border: none;
+  border-bottom: 1px solid gray; }
+
+.payInput::placeholder {
+  color: #a6a5a5; }
 
 .productImg {
   width: 50%; }

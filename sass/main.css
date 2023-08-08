@@ -41,11 +41,11 @@ nav {
 }
 
 .searchInput::-moz-placeholder {
-  color: lightgray;
+  color: rgb(166, 165, 165);
 }
 
 .searchInput::placeholder {
-  color: lightgray;
+  color: rgb(166, 165, 165);
 }
 
 .limitedOffer {
@@ -65,7 +65,7 @@ nav {
   margin-top: 50px;
   margin-bottom: 50px;
   cursor: pointer;
-  color: lightgray;
+  color: rgb(166, 165, 165);
   font-weight: 400;
 }
 
@@ -242,6 +242,31 @@ nav {
   box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75);
+}
+
+.paymentTitle {
+  font-size: 20px;
+  color: rgb(166, 165, 165);
+}
+
+label {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.payInput {
+  padding: 10px;
+  margin: 10px 0px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.payInput::-moz-placeholder {
+  color: rgb(166, 165, 165);
+}
+
+.payInput::placeholder {
+  color: rgb(166, 165, 165);
 }
 
 .productImg {
