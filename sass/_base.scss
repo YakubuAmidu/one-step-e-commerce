@@ -169,37 +169,25 @@ nav {
     background-color: rgb(124, 115, 80);
 }
 
-;
-
 .sliderItem:nth-child(1) .sliderPrice {
     background-color: #369e62;
 }
-
-;
 
 .sliderItem:nth-child(2) .sliderPrice {
     background-color: rebeccapurple;
 }
 
-;
-
 .sliderItem:nth-child(3) .sliderPrice {
     background-color: teal;
 }
-
-;
 
 .sliderItem:nth-child(4) .sliderPrice {
     background-color: cornflowerblue;
 }
 
-;
-
 .sliderItem:nth-child(5) .sliderPrice {
     background-color: rgb(124, 115, 80);
 }
-
-;
 
 .features {
     display: flex;
@@ -207,8 +195,6 @@ nav {
     justify-content: space-between;
     padding: 50px;
 }
-
-;
 
 .feature {
     display: flex;
@@ -221,19 +207,13 @@ nav {
     width: 50px;
 }
 
-;
-
 .featureTitle {
     font-size: 20px;
     font-weight: 600;
     margin: 20px;
 }
 
-;
-
 .featureDescription {
     color: $color-gray;
     width: 80%;
 }
-
-;
