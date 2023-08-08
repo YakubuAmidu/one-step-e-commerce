@@ -79,9 +79,21 @@ const products = [
   },
 ];
 
+let chosenProduct = products[0];
+
+const currentProductImg = document.querySelector('.productImg');
+const currentProductTitle = document.querySelector('.productTitle');
+const currentProductPrice = document.querySelector('.productPrice');
+const currentProductColors = document.querySelectorAll('.color');
+const currentProductSizes = document.querySelectorAll('.size');
+
 menuItem.forEach((item, index) => {
     item.addEventListener('click', () => {
+        // Change the current slide
         wrapper.style.transform = `translateX(${-100 * index}vw)`;
         console.log('You clicked me my friend...' + index);
+
+        // Change the chosenProduct
+
     });
 });
