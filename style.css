@@ -319,3 +319,14 @@ label {
   border: 1px solid gray;
   color: #111;
   transition: all .3s ease-in-out; }
+
+.gallery {
+  display: flex;
+  padding: 50px; }
+
+.galleryItem {
+  flex: 1;
+  padding: 50px; }
+
+.galleryImg {
+  width: 100%; }
