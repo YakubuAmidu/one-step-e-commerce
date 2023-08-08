@@ -3,6 +3,10 @@ $color-white: #fff;
 $color-light-gray: lightgray;
 $color-gray: gray;
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Lato", sans-serif;
     margin: 0;
