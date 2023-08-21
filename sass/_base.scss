@@ -389,8 +389,6 @@ label {
     padding: 50px;
 }
 
-;
-
 .galleryItem {
     flex: 1;
     padding: 50px;
@@ -400,13 +398,9 @@ label {
     width: 100%;
 }
 
-;
-
 .newSeason {
     display: $display-flex;
 }
-
-;
 
 .nsItem {
     flex: 1;
@@ -419,16 +413,14 @@ label {
     text-align: center;
 }
 
-;
-
 .nsImg {
     width: 100%;
     height: 500px;
-};
+}
 
 .nsTitle {
     font-size: 40px;
-};
+}
 
 .nsButton {
     padding: 15px;
@@ -436,20 +428,36 @@ label {
     border-radius: 10px;
     border: none;
     cursor: pointer;
-};
+}
 
 footer {
     display: $display-flex;
-};
+}
 
 .footerLeft {
     flex: 2;
+    display: $display-flex;
+    justify-content: space-between;
+    padding: 50px;
     background-color: red;
-};
+}
+
+.fMenuTitle {
+    font-size: 16px;
+}
+
+.fList {
+    padding: 0;
+    list-style: none;
+}
+
+.fListItem {
+    margin-bottom: 10px;
+    color: $color-gray;
+    cursor: pointer;
+}
 
 .footerRight {
     flex: 1;
     background-color: green;
-};
-
-
+}
