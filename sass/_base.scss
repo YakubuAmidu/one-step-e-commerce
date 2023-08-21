@@ -2,6 +2,7 @@ $color-black: #111;
 $color-white: #fff;
 $color-light-gray: rgb(166, 165, 165);
 $color-gray: gray;
+$display-flex: flex;
 
 html {
     scroll-behavior: smooth;
@@ -20,13 +21,13 @@ nav {
 }
 
 .navTop {
-    display: flex;
+    display: $display-flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .search {
-    display: flex;
+    display: $display-flex;
     align-items: center;
     background-color: $color-gray;
     padding: 10px 20px;
@@ -56,7 +57,7 @@ nav {
 }
 
 .navBottom {
-    display: flex;
+    display: $display-flex;
     align-items: center;
     justify-content: center;
 }
@@ -77,14 +78,14 @@ nav {
 }
 
 .sliderWrapper {
-    display: flex;
+    display: $display-flex;
     width: 500vw;
     transition: all 1s ease-in-out;
 }
 
 .sliderItem {
     width: 100vw;
-    display: flex;
+    display: $display-flex;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -190,14 +191,14 @@ nav {
 }
 
 .features {
-    display: flex;
+    display: $display-flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px;
 }
 
 .feature {
-    display: flex;
+    display: $display-flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -268,7 +269,7 @@ label {
 }
 
 .cardIcons {
-    display: flex;
+    display: $display-flex;
 }
 
 .cardIcon {
@@ -276,7 +277,7 @@ label {
 }
 
 .cardInfo {
-    display: flex;
+    display: $display-flex;
     justify-content: space-between;
 }
 
@@ -339,7 +340,7 @@ label {
 
 .colors,
 .sizes {
-    display: flex;
+    display: $display-flex;
     margin-bottom: 20px;
 }
 
@@ -384,7 +385,7 @@ label {
 }
 
 .gallery {
-    display: flex;
+    display: $display-flex;
     padding: 50px;
 }
 
@@ -402,7 +403,7 @@ label {
 ;
 
 .newSeason {
-    display: flex;
+    display: $display-flex;
 }
 
 ;
@@ -438,7 +439,7 @@ label {
 };
 
 footer {
-    display: flex;
+    display: $display-flex;
 };
 
 .footerLeft {
@@ -449,6 +450,6 @@ footer {
 .footerRight {
     flex: 1;
     background-color: green;
-}
+};
 
 
