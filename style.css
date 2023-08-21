@@ -388,4 +388,26 @@ footer {
 
 .footerRight {
   flex: 1;
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: green; }
+
+.fInput {
+  padding: 7px;
+  border: none;
+  border-top-left-radius: 5px;
+  font-size: 17px;
+  outline: none;
+  border-bottom-left-radius: 5px; }
+
+.fButton {
+  padding: 7px;
+  font-size: 17px;
+  background-color: #111;
+  color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  border: none; }
