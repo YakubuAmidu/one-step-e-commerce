@@ -437,4 +437,18 @@ label {
     cursor: pointer;
 };
 
+footer {
+    display: flex;
+};
+
+.footerLeft {
+    flex: 2;
+    background-color: red;
+};
+
+.footerRight {
+    flex: 1;
+    background-color: green;
+}
+
 
