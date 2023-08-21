@@ -355,8 +355,14 @@ label {
   padding: 15px;
   font-weight: 600;
   border-radius: 10px;
+  border: 2px solid white !important;
   border: none;
   cursor: pointer; }
+
+.nsButton:hover {
+  transition: all .5s ease-in-out;
+  background-color: #111;
+  color: #fff; }
 
 footer {
   display: flex; }
@@ -366,7 +372,8 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 50px;
-  background-color: red; }
+  background-color: orangered;
+  opacity: 1.5; }
 
 .fMenuTitle {
   font-size: 16px; }
