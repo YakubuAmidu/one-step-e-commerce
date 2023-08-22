@@ -240,8 +240,7 @@ nav {
     clip-path: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 10%; } }
+    align-items: center; } }
 
 .payment {
   width: 500px;
@@ -259,6 +258,11 @@ nav {
   box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 8px 52px 86px -9px rgba(0, 0, 0, 0.75); }
+
+@media screen and (max-width: 480px) {
+  .payment {
+    width: 90%;
+    padding: 20px; } }
 
 .paymentTitle {
   font-size: 20px;
@@ -343,8 +347,8 @@ label {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0;
-    padding-bottom: 10%; } }
+    top: 0;
+    padding: 0; } }
 
 .productTitle {
   font-size: 75px;
@@ -403,6 +407,10 @@ label {
   display: flex;
   padding: 50px; }
 
+@media screen and (max-width: 480px) {
+  .gallery {
+    display: none; } }
+
 .galleryItem {
   flex: 1;
   padding: 50px; }
@@ -413,6 +421,10 @@ label {
 .newSeason {
   display: flex; }
 
+@media screen and (max-width: 480px) {
+  .newSeason {
+    flex-direction: column; } }
+
 .nsItem {
   flex: 1;
   background-color: black;
@@ -422,6 +434,10 @@ label {
   align-items: center;
   justify-content: center;
   text-align: center; }
+
+@media screen and (max-width: 480px) {
+  .nsItem:nth-child(2) {
+    padding: 50px; } }
 
 .nsImg {
   width: 100%;
@@ -446,12 +462,22 @@ label {
 footer {
   display: flex; }
 
+@media screen and (max-width: 480px) {
+  footer {
+    flex-direction: column;
+    align-items: center; } }
+
 .footerLeft {
   flex: 2;
   display: flex;
   justify-content: space-between;
   padding: 50px;
   opacity: 1.5; }
+
+@media screen and (max-width: 480px) {
+  .footerLeft {
+    padding: 20px;
+    width: 90%; } }
 
 .fMenuTitle {
   font-size: 16px; }
@@ -471,6 +497,13 @@ footer {
   padding: 50px;
   flex-direction: column;
   justify-content: space-between; }
+
+@media screen and (max-width: 480px) {
+  .footerRight {
+    padding: 20px;
+    width: 90%;
+    align-items: center;
+    background-color: whitesmoke; } }
 
 .fInput {
   padding: 7px;
