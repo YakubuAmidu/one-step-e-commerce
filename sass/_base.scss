@@ -184,8 +184,8 @@ nav {
     .sliderPrice {
         top: unset;
         bottom: 0;
-        left: 0;
-        background-color: $color-light-gray;
+        left: 5%;
+        background-color: $color-light-gray !important;
     }
 }
 
@@ -202,6 +202,13 @@ nav {
     background-color: $color-black;
     z-index: 1;
     cursor: pointer;
+}
+
+@media screen and (max-width: 480px){
+    .buyButton {
+        top: 20%;
+        right: 5%;
+    }
 }
 
 .buyButton:hover {
