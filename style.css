@@ -122,6 +122,10 @@ nav {
   font-size: 60px;
   z-index: 1; }
 
+@media screen and (max-width: 480px) {
+  .sliderTitle {
+    display: none; } }
+
 .sliderPrice {
   position: absolute;
   top: 10%;
@@ -134,6 +138,13 @@ nav {
   padding: 5px;
   border: 1px solid gray;
   z-index: 1; }
+
+@media screen and (max-width: 480px) {
+  .sliderPrice {
+    top: unset;
+    bottom: 0;
+    left: 0;
+    background-color: #a6a5a5; } }
 
 .buyButton {
   position: absolute;
