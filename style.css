@@ -206,6 +206,10 @@ nav {
   justify-content: space-between;
   padding: 50px; }
 
+@media screen and (max-width: 480px) {
+  .features {
+    flex-direction: column; } }
+
 .feature {
   display: flex;
   flex-direction: column;
