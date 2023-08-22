@@ -20,6 +20,12 @@ nav {
     padding: 20px 50px;
 }
 
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 20px;
+    }
+}
+
 .navTop {
     display: $display-flex;
     align-items: center;
@@ -32,6 +38,12 @@ nav {
     background-color: $color-gray;
     padding: 10px 20px;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 480px){
+    .search {
+        display: none;
+    }
 }
 
 .searchInput {
@@ -62,6 +74,12 @@ nav {
     justify-content: center;
 }
 
+@media screen and (max-width: 480px){
+    .navBottom {
+        flex-wrap: wrap;
+    }
+}
+
 .menuItem {
     margin-right: 50px;
     margin-top: 50px;
@@ -69,6 +87,14 @@ nav {
     cursor: pointer;
     color: $color-light-gray;
     font-weight: 400;
+}
+
+@media screen and (max-width: 480px){
+    .menuItem {
+        margin: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
 }
 
 .slider {
@@ -474,7 +500,7 @@ footer {
 
 .fInput {
     padding: 7px;
-    border: none;
+    border: 1px solid $color-light-gray;
     border-top-left-radius: 5px;
     font-size: 17px;
     outline: none;

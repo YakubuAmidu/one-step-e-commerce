@@ -11,6 +11,10 @@ nav {
   color: #fff;
   padding: 20px 50px; }
 
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 20px; } }
+
 .navTop {
   display: flex;
   align-items: center;
@@ -22,6 +26,10 @@ nav {
   background-color: gray;
   padding: 10px 20px;
   border-radius: 10px; }
+
+@media screen and (max-width: 480px) {
+  .search {
+    display: none; } }
 
 .searchInput {
   border: none;
@@ -46,6 +54,10 @@ nav {
   align-items: center;
   justify-content: center; }
 
+@media screen and (max-width: 480px) {
+  .navBottom {
+    flex-wrap: wrap; } }
+
 .menuItem {
   margin-right: 50px;
   margin-top: 50px;
@@ -53,6 +65,12 @@ nav {
   cursor: pointer;
   color: #a6a5a5;
   font-weight: 400; }
+
+@media screen and (max-width: 480px) {
+  .menuItem {
+    margin: 20px;
+    font-weight: 700;
+    font-size: 20px; } }
 
 .slider {
   background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
@@ -395,7 +413,7 @@ footer {
 
 .fInput {
   padding: 7px;
-  border: none;
+  border: 1px solid #a6a5a5;
   border-top-left-radius: 5px;
   font-size: 17px;
   outline: none;
