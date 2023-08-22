@@ -103,6 +103,12 @@ nav {
     overflow: hidden;
 }
 
+@media screen and (max-width: 480px){
+    .slider {
+        clip-path: none;
+    }
+}
+
 .sliderWrapper {
     display: $display-flex;
     width: 500vw;
@@ -126,8 +132,21 @@ nav {
     position: absolute;
 }
 
+@media screen and (max-width: 480px){
+    .sliderBg {
+        width: 90%;
+        height: 90%;
+    }
+}
+
 .sliderImg {
     z-index: 1;
+}
+
+@media screen and (max-width: 480px){
+    .sliderImg {
+        width: 90%;
+    }
 }
 
 .sliderTitle {

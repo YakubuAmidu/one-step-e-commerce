@@ -77,6 +77,10 @@ nav {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   overflow: hidden; }
 
+@media screen and (max-width: 480px) {
+  .slider {
+    clip-path: none; } }
+
 .sliderWrapper {
   display: flex;
   width: 500vw;
@@ -96,8 +100,17 @@ nav {
   background-color: yellow;
   position: absolute; }
 
+@media screen and (max-width: 480px) {
+  .sliderBg {
+    width: 90%;
+    height: 90%; } }
+
 .sliderImg {
   z-index: 1; }
+
+@media screen and (max-width: 480px) {
+  .sliderImg {
+    width: 90%; } }
 
 .sliderTitle {
   position: absolute;
